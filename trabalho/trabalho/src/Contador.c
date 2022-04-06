@@ -33,7 +33,7 @@ void contador(int n){
                 j--;
             }else{
                 soma = soma + matriz[i+1][j];
-                matriz[i+1][j];
+                matriz[i+1][j] = -1;
                 i++;
             }
         }else if(i == n-1){
@@ -56,6 +56,10 @@ void contador(int n){
             }
         }
     }
+    
+    printf("\n");
+    printf("\n");
+    printf("Matriz com caminho:\n\n");
 
     for(int i =0; i < n; i++){
         for(int j=0; j< n; j++){
@@ -68,5 +72,7 @@ void contador(int n){
         }
         printf("\n");
     }
+    
+    printf("\nSoma: %d", soma);
 
 }
