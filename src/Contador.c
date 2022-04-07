@@ -15,7 +15,7 @@ void contador(int n){
     soma= matriz[0][0];
     matriz[0][0]= -1;
 
-    while(matriz[i][j] != matriz[n-1][n-1]){
+    while(j != (n-1) || i != (n-1)){
         if(j == 0 && i != n-1){
             if(matriz[i+1][j] > matriz[i][j+1]){
                 soma = soma + matriz[i+1][j];
