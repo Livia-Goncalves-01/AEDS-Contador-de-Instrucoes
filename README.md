@@ -1,4 +1,4 @@
-# AEDS-Contando-de-Instruçoes
+# AEDS-Contando-Instruçoes
 
 ## Exercício
 
